@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8fbff;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background: #d3f1fb;
+    padding: 24px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.container h2 {
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form .row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+form .row input {
+    flex: 1;
+}
+
+form .row button {
+    padding: 8px 12px;
+    margin-bottom: auto;
+    font-size: 14px;
+    background-color: #5b9ec3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    height: 38px;
+}
+
+form .row button:hover {
+    background-color: #3a6484;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5b9ec3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover{
+    background-color: #3a6484;
+}
+
+form button[type="submit"]:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.text-red-500 {
+    color: #e63946;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.success-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #d3f1fb;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.success-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
