@@ -44,7 +44,7 @@ After successful submission, form data is shown on a new /success route
 css
 Copy
 Edit
-project-root/
+signup-form/
 │
 ├── public/
 │   └── index.html
@@ -52,7 +52,6 @@ project-root/
 ├── src/
 │   ├── styles.css
 │   ├── index.js
-│   └── App.js (main code file)
 │
 └── README.md
 🧑‍💻 Tech Stack
@@ -67,22 +66,11 @@ project-root/
 📦 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/signup-form-react.git
-cd signup-form-react
+git clone https://github.com/rohitjangir7100/signup-form
+cd signup-form
 Install dependencies:
-
-bash
-Copy
-Edit
 npm install
 Start the development server:
-
-bash
-Copy
-Edit
 npm start
 
 💬 Feedback
